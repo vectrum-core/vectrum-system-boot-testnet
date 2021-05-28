@@ -24,3 +24,11 @@ wget https://github.com/vectrum-core/vectrum/releases/download/v0.1.0/vectrum_0.
 ```
 
 https://local.bloks.io/?nodeUrl=http://localhost:8888&coreSymbol=VTM&systemDomain=eosio
+
+   /etc/letsencrypt/live/testoname.com/fullchain.pem
+   Your key file has been saved at:
+   /etc/letsencrypt/live/testoname.com/privkey.pem
+
+https://testoname.com:4443/v1/chain/get_info
+
+https://local.bloks.io/?nodeUrl=https://testoname.com:4443&coreSymbol=VTM&systemDomain=eosio
